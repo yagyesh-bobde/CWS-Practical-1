@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Gallery</title>
+    <style>
+        .home_nav {
+            display: flex;
+            justify-content: space-between;    
+            padding: 10px 50px;
+            align-items: center;
+        }
+        .nav_links ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 15px;
+            font-size: 20px;
+        }
+        .nav_links ul li {
+            list-style: none;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            color: gray;
+            cursor: pointer;
+        }
+        a:active {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <nav class="home_nav" >
+            <div>
+                <img src="http://rknec.edu/img/LOGO/Ramdeobaba-Logo.png" width="75px" alt="">
+            </div>
+            <div class="nav_links" >
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="qualifications.html">
+                            Qualifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="goals.html">
+                            Goals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" target="_blank">
+                            Gallery
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </center>
+    <section class="" id="image_gallery">
+        <center>
+            <h1>Image Gallery</h1>
+
+            <section class="main">
+            <img width="550px" height="350px" src="data:image/jpeg;base64,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">
+        </section>
+            
+        <section width="75%" border="1" style="display:flex;overflow:auto;margin:0 auto; width:75%;" >
+            <img src="https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"  width="150" height="150" alt="">
+            <img src="https://free4kwallpapers.com/uploads/originals/2019/10/31/mountain-scenery-art-wallpaper.jpg"  width="150" height="150" alt="">
+            <img src="https://img.freepik.com/free-vector/flat-design-lake-scenery_23-2149161405.jpg?w=2000"  width="150" height="150" alt="">
+            <img src="https://cdn4.vectorstock.com/i/1000x1000/15/78/beautiful-scenery-at-night-vector-36751578.jpg"  width="150" height="150" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgEwJY0UNMHSO-EomM41tgy8g15fc9Wr1oQ&usqp=CAU"  width="150" height="150" alt="">
+            <img src="https://images.hdqwalls.com/wallpapers/nature-scenery-4k-s4.jpg"  width="150" height="150" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWomoqBQLRtCbzQ45HxkFecti6irm_8UcxFKy3Ko9RTOpeHGxe7xOfKcEfvrZOFoHUW8k&usqp=CAU"  width="150" height="150" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTryVctwZ9lATASb0wcJAjZhQbmzuXCxorxwDBW5A4I_AeZPpB7c37ipGWaSyYMxC5-DZw&usqp=CAU"  width="150" height="150" alt="">
+        </section>
+    </section>
+    <hr>
+    <section class=""
+             id="gifs_gallery">
+        <center>
+            <h1>Emoji Gallery</h1>
+    
+            <section class="main">
+                <img width="550px"
+                     height="350px"
+                     src="https://media0.giphy.com/media/5UA8yzZgQeq3C02eA2/200w.webp?cid=ecf05e47qh5goofuco272x7rqdhqjdk0uif4z2qxlpasdjj0&rid=200w.webp&ct=g">
+            </section>
+    
+            <section width="75%"
+                     border="1"
+                     style="display:flex;overflow:auto;margin:0 auto; width:75%;">
+                <img src="https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://free4kwallpapers.com/uploads/originals/2019/10/31/mountain-scenery-art-wallpaper.jpg"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://img.freepik.com/free-vector/flat-design-lake-scenery_23-2149161405.jpg?w=2000"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/15/78/beautiful-scenery-at-night-vector-36751578.jpg"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgEwJY0UNMHSO-EomM41tgy8g15fc9Wr1oQ&usqp=CAU"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://images.hdqwalls.com/wallpapers/nature-scenery-4k-s4.jpg"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWomoqBQLRtCbzQ45HxkFecti6irm_8UcxFKy3Ko9RTOpeHGxe7xOfKcEfvrZOFoHUW8k&usqp=CAU"
+                     width="150"
+                     height="150"
+                     alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTryVctwZ9lATASb0wcJAjZhQbmzuXCxorxwDBW5A4I_AeZPpB7c37ipGWaSyYMxC5-DZw&usqp=CAU"
+                     width="150"
+                     height="150"
+                     alt="">
+            </section>
+    </section>
+    </center>
+    <footer >
+        <hr>
+        <section style="padding:15px;" >
+            <h4>
+                Socials
+            </h4>
+            <ul style="list-style:none; display:flex; justify-content: space-around;" >
+                <li style="display:flex;align-items:center;gap:2px;">
+                    <img src="https://img.icons8.com/fluency/512/twitter.png" width="15px" alt="">
+                    <a target="_blank" href="https://twitter.com/bobde_yagyesh">Twitter</a>
+                </li>
+                <li style="display:flex;align-items:center;gap:2px;" >
+                    <img src="https://img.icons8.com/color/512/linkedin.png" width="15px" alt="">
+                    <a target="_blank" href="https://github.com/yagyesh-bobde">Linkedin</a>
+                </li>
+                <li style="display:flex;align-items:center;gap:2px;" >
+                    <img src="https://img.icons8.com/color/512/instagram-new.png" width="15px" alt="">
+                    <a target="_blank" href="https://instagram.com/bobde_yagyesh">Instagram</a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
